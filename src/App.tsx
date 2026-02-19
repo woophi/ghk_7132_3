@@ -192,13 +192,13 @@ export const App = () => {
             ИИС открывается
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" color="secondary">
-            Предлагаем на выбор паи фондов Московской биржи для первых инвестиций
+            Подключите одну из наших стратегий для первых инвестиций
           </Typography.Text>
         </div>
 
         <div style={{ borderRadius: '1rem 1rem 0 0', backgroundColor: '#F6F6FD' }} className={appSt.container}>
           <Typography.TitleResponsive tag="h2" view="small" font="system" weight="semibold">
-            Выберите фонд
+            Выберите стратегию
           </Typography.TitleResponsive>
 
           {strategies.map((strategy, index) => (
